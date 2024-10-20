@@ -1,0 +1,61 @@
+.app-container {
+    display: flex;
+    font-family: Arial, sans-serif;
+  }
+  
+  .sidebar {
+    width: 250px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-right: 1px solid #ccc;
+  }
+  
+  .sidebar h2 {
+    font-size: 20px;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .sidebar ul li:hover {
+    background-color: #ddd;
+  }
+  
+  .sidebar ul li.selected {
+    background-color: #aaa;
+    color: #fff;
+  }
+  
+  .main-content {
+    padding: 20px;
+    flex: 1;
+  }
+  
+  .characters-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  
+  .character-card {
+    text-align: center;
+  }
+  
+  .character-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  .character-card p {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+    
